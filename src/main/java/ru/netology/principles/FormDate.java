@@ -1,26 +1,31 @@
 package ru.netology.principles;
 
 public class FormDate {
-    public String day;
-    public String month;
-    public String year;
+    public int day;
+    public int month;
+    public int year;
 
-    public String getDay(){
+    public int getDay() {
         return day;
     }
-    public void setDay(String day) {
+
+    public void setDay(int day) {
         this.day = day;
     }
-    public String getMonth() {
+
+    public int getMonth() {
         return month;
     }
-    public void setMonth(String month) {
-        this.month= month;
+
+    public void setMonth(int month) {
+        this.month = month;
     }
-    public String getYear() {
+
+    public int getYear() {
         return year;
     }
-    public void setYear(String year) {
+
+    public void setYear(int year) {
         this.year = year;
     }
 }

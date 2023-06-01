@@ -6,7 +6,7 @@ public class Post {
     public String patronymic;
     public String phone;
     public String surname;
-    public String subscription;
+    public boolean subscription;
     public FormDate birthday;
 
     public String getName() {
@@ -21,7 +21,7 @@ public class Post {
         return passport;
     }
 
-    public  void setPassport(String passport) {
+    public void setPassport(String passport) {
         this.passport = passport;
     }
 
@@ -49,11 +49,11 @@ public class Post {
         this.surname = surname;
     }
 
-    public String getSubscription() {
+    public boolean getSubscription() {
         return subscription;
     }
 
-    public void setSubscription(String subscription) {
+    public void setSubscription(boolean subscription) {
         this.subscription = subscription;
     }
 
